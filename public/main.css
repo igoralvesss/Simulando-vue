@@ -1,0 +1,161 @@
+/* Banner */
+body{
+    background-color: rgb(0, 0, 0, 0.6);
+    background-image: url("../../img/prova.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    width: 100%;
+    
+  }
+.banner{
+    height:92vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "real null";
+    background-color: rgb(0,0,0, 0.4)
+  }
+  .card-real{
+    grid-area: real;
+    display: flex;
+    
+  }
+  .card-banner{
+    margin: 40px 50px;
+    background-color: rgb(255, 81, 0);
+    height: 60vh;
+    margin-bottom: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    border-radius: 10px 90px;
+  }
+  
+  .title-banner{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+  }
+  .text-banner{
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .btn-header {
+      background-color: transparent;
+      border: 3px solid  white;
+      border-radius: 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color:  white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 300ms;
+      font-size:1.6rem;
+  }
+  
+  .btn-header:hover {
+    background-color: #4A148C;
+      /* background-color: rgb(21, 3, 51); */
+      color:white;
+      font-size:1.6rem;
+      text-decoration: none;
+  }
+
+  /* Video */
+  .video-main{
+      background-color: white;
+      box-shadow: 0px 0px 10px 0px #000;
+      display: flex;
+      /* display: grid;
+      grid-template-columns: 10px auto auto 10px;
+      grid-template-rows: 10px auto 10px;
+      grid-template-areas: "null null null null" 
+                           "video video texto null"
+                           "null null null null"; */
+  }
+
+  .video{
+    /* grid-area: video; */
+    padding: 50px ;  
+  }
+  .text-video{
+    /* grid-area: texto; */
+    background-color: white;
+    padding: 50px 90px ;
+    color: black;
+  }
+  h2{
+    font-weight: bold;
+  }
+  .paragrafo-video{
+      font-size: 1.1rem;
+  }
+
+  /* Sobre */
+
+  .sobre{
+    background-color: white;
+    padding: 30px 0px;
+    border-top: solid 1px rgb(0, 0, 0, 0.1);
+  }
+
+  .card-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+  }
+  .icon-sobre{
+      height: 250px;
+      width: 250px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+      text-align: center;
+  }
+
+  .icon-sobre img{
+      height: 100px;
+  }
+
+  .text-icon{
+      font-size: 1.2rem;
+  }
+
+  /* Noticias */
+
+  .noticias{
+      background-color: rgb(21, 3, 51);
+      padding: 40px 50px;
+      box-shadow: 0px 0px 10px 0px #000;
+  }
+  .titulo-noticias{
+      font-size: 1.6rem;
+      color: white;
+  }
+  .orange{
+      background-color:rgb(255, 81, 0);
+      color:white;
+  }
+
+  .card-columns{
+      padding: 20px 0px;
+  }
+
+  .not{
+      display: flex;
+      justify-content: space-between;
+  }
+  .data-att{
+      color:rgb(255, 255, 255, 0.6);
+      
+  }
+

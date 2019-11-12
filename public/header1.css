@@ -1,0 +1,83 @@
+header{
+    background-color: rgb(21, 3, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.logo-header{
+    height: 50px;
+}
+
+.liks{
+    text-decoration: none;
+    padding: 20px;
+    color:white;
+    font-weight: bold;
+    font-size: 1.1rem
+  }
+  .liks:hover{
+    color:rgb(255, 81, 0);
+    background-color: rgb(21, 3, 51);
+    font-size: 1.15rem;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  .dropdown-item:hover{
+    background-color: rgb(255, 81, 0);
+    font-weight: bold;
+    color:white;
+    font-size: 1.1rem;
+  }
+
+.font-drop{
+    font-size: 1.3rem;
+}
+
+.icon-menu{
+    height: 30px;
+}
+
+.icon-user{
+    height: 50px;
+}
+.icon-pais{
+    height: 40px;
+    margin: 0px 19px;
+}
+
+.menu-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(min-width: 720px){
+    .menu-mobile{
+        display:none;
+    }
+    .icone-user{
+        height: 50px;
+        margin-top: -5px;
+    }
+}
+
+@media(max-width: 721px){
+    .menu-desktop{
+        display:none;
+    }
+    
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px;
+    color:white;
+    font-weight: bold;
+    font-size: 1.1rem
+}
+
